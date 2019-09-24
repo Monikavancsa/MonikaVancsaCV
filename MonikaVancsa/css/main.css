@@ -1,62 +1,4 @@
-/* ===================================================================
- *
- *  Hola v1.0 Main Stylesheet
- *  10-02-2017
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # webfonts and iconfonts
- *  # base style overrides
- *      ## links
- *  # typography & general theme styles
- *      ## lists
- *      ## responsive video container
- *      ## floated image
- *      ## tables
- *      ## spacing
- *      ## pace.js styles - minimal
- *  # forms
- *      ## style placeholder text
- *      ## Change Autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *      ## alert box
- *      ## additional typo styles
- *      ## skillbars
- *  # common and reusable theme styles
- *      ## section intro
- *      ## blog-list
- *  # header styles
- *      ## header logo
- *      ## mobile menu toggle
- *      ## navigation
- *  # home
- *      ## home content
- *      ## home social
- *      ## home animations
- *  # about
- *      ## timeline
- *  # works
- *      ## bricks/masonry
- *  # testimonials
- *  # blog
- *  # cta
- *  # stats
- *  # contact
- *  # footer
- *      ## go to top
- *  # blog styles
- *      ## blog page header
- *      ## blog content
- *      ## comments
- *
- * =================================================================== */
 
-
-/* ===================================================================
- * # webfonts and iconfonts - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- */
 
 @import url("iconic/css/iconmonstr-iconic-font.min.css");
 @import url("fonts.css");
@@ -229,48 +171,6 @@ small {
     line-height: inherit;
 }
 
-blockquote {
-    margin: 3.9rem 0;
-    padding-left: 4.5rem;
-    position: relative;
-}
-
-blockquote:before {
-    content: "\201C";
-    font-size: 10rem;
-    line-height: 0px;
-    margin: 0;
-    color: rgba(0, 0, 0, 0.15);
-    font-family: arial, sans-serif;
-    position: absolute;
-    top: 3.6rem;
-    left: 0;
-}
-
-blockqu e p {
-    font-family: "montserrat-regular", sans-serif;
-    padding: 0;
-    font-size: 2.1rem;
-    line-height: 1.857;
-    color: #0D0A0B;
-}
-
-blockquote cite {
-    display: block;
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 1.4rem;
-    font-style: normal;
-    line-height: 1.5;
-}
-
-blockquote cite:before {
-    content: "\2014 \0020";
-}
-
-blockquote cite a, blockquote cite a:visited {
-    color: #6c6c6c;
-    border: none;
-}
 
 abbr {
     font-family: "librebaskerville-bold", serif;
