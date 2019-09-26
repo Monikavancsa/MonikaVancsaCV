@@ -40,7 +40,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #862121;
+    color: #20B2AA;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -950,57 +950,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/**
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
- *
- * Extend this object into your markup.
- *
- * --------------------------------------------------------------------- */
-
-.stats-tabs {
-    padding: 0;
-    margin: 3rem 0;
-}
-
-.stats-tabs li {
-    display: inline-block;
-    margin: 0 1.5rem 3rem 0;
-    padding: 0 1.5rem 0 0;
-    border-right: 1px solid rgba(13, 10, 11, 0.15);
-}
-
-.stats-tabs li:last-child {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-.stats-tabs li a {
-    display: inline-block;
-    font-size: 2.5rem;
-    font-family: "montserrat-semibold", sans-serif;
-    border: none;
-    color: #151515;
-}
-
-.stats-tabs li a:hover {
-    color: #862121;
-}
-
-.stats-tabs li a em {
-    display: block;
-    margin: .6rem 0 0 0;
-    font-size: 1.4rem;
-    font-family: "montserrat-regular", sans-serif;
-    color: #6c6c6c;
-}
-
 
 /* -------------------------------------------------------------------
  * ## skillbars - (_skillbars.scss)
@@ -1563,10 +1512,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h3 {
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 2rem;
-    color: #20B2AA;
-    text-transform: uppercase;
+    font-family: "montserrat-medium";
+    font-size: 3rem;
+    color: white;
     letter-spacing: .5rem;
     position: relative;
     padding-left: 80px;
@@ -1590,7 +1538,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h1 {
     font-family: "librebaskerville-bold", serif;
     color: #FFFFFF;
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 1.35;
     margin-top: 0;
     letter-spacing:2rem;
@@ -2236,8 +2184,43 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+/* ===================================================================
+ * # Game , canvas
+ *
+ * -------------------------------------------------------------------*/
+
+.game-description {
+   margin: 1rem 6rem 0 10rem;
+   background-color: rgba(255, 255, 255, 0.4);
+   border: 1px solid black ;
+   padding:0;
+
+}
+
+ .game-description h3 {
+   font-family: "Harry Potter Regular";
+   margin: 10px;
+   text-shadow: 0.5;
+   font-size: 3rem;
+ }
+
+ .game-description h4 {
+   font-family:"montserrat-semibold";
+   font-size: 2rem;
+  padding:1rem;
+  margin-top:0;
+ }
 
 
+}
+#myCanvas{
+border:1px solid black;
+background-color: rgba(255, 255, 255, 0.4);
+margin: 5rem auto;
+display:block;
+position:relative;
+
+}
 /* ===================================================================
  * # contact - (_site-layout.scss)
  *
@@ -2258,7 +2241,9 @@ html.no-csstransitions .home-content__main {
     left: 0;
     width: 100%;
     height: 100%;
-
+    opacity: 0.9;
+    filter: blur(3px);
+    background-color: black;
 }
 
 .s-contact .section-intro h1 {
