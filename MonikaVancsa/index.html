@@ -19,13 +19,13 @@
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+
 
     <!-- favicons
     ================================================== -->
@@ -50,6 +50,7 @@
                 <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
                 <li><a class="smoothscroll"  href="#works" title="works">Work experience</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                <li><a class="smoothscroll"  href="#game" title="contact">Let's play</a></li>
             </ul>
         </nav>
 
@@ -74,7 +75,7 @@
                 <h1>
                      Monika Vancsa. <br>
                 </h1>
-                <h2>    I am a passioante Web Developer in Cluj <br>
+                <h2>    I am a passionate Web Developer in Cluj <br>
                     and ready to make <span style="color:#20B2AA"> a difference</span> together.
                 </h2>
 
@@ -250,29 +251,34 @@
         </div> <!-- end about-content timeline -->
 </section>
 </section>
+<!--- Game area-->
 
+<section id="game"  class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/castle.jpg" data-natural-width=3000 data-natural-height=2200 data-position-y=center >
+<div class="game-description">
+  <div class="description-overlay"></div>
 
+<h3> Yes, I am a Harry Potter fan!</h3>
+<h4> There is a simple game!
+   Are you ready to play? <br>
+ Hit the "V" button to spell <span style="font-family : Harry Potter Regular"> wingardium leviosa! </span> to keep the snitch in the air and avoid touching the obstacles. Have fun!</h4>
+</div>
+<div class="game-area">
+  <button id="startGame" type="button" name="button">Let's play!</button><button id="reStartGame" type="button" name="button">rESTART</button>
+  <h4 id="failed"></h4>
+<canvas id="myCanvas" width="288" height="512" style="margin:1rem auto; display:block " >
+</canvas><br>
 
+</section>
 
-
-
-
-
-
-
-
-
-
-    <section id="contact" class="s-contact target-section">
-
+   <section id="contact" class="s-contact target-section" data-parallax="scroll" data-image-src="images/phone.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center data-filter=blur(20px)>
         <div class="overlay"></div>
 
         <div class="row narrow section-intro">
             <div class="col-full">
                 <h3></h3>
-                <h1>You can contact me..</h1>
+                <h1>My contact details...</h1>
 
-                <p class="lead">Please don't hesitate to contact me anytime if you would like to collaborate</p>
+                <p class="lead">Please don't hesitate to contact me for any further information</p>
             </div>
         </div>
 
@@ -389,33 +395,7 @@
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">
 
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
 
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
 
         </div>
 
@@ -431,6 +411,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/game.js"></script>
 
 </body>
 

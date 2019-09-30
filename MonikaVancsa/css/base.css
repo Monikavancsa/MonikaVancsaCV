@@ -1,37 +1,3 @@
-/* ===================================================================
- *
- *  Hola v1.0 Base Stylesheet
- *  10-02-2017
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # Normalize
- *  # Basic/base setup styles
- *      ## Media
- *      ## Typography resets
- *      ## links
- *      ## inputs
- *  # grid
- *      ## medium size devices
- *      ## tablets
- *      ## mobile devices
- *      ## small mobile devices
- *  # block grids
- *      ## medium size devices
- *      ## tablets
- *      ## mobile devices
- *      ## small mobile devices
- *  # MISC
- *
- * =================================================================== */
-
-
-/* ===================================================================
- * # normalize
- * normalize.css v5.0.0 | MIT License |
- * github.com/necolas/normalize.css
- *
- * ------------------------------------------------------------------- */
 
 html {
     font-family: sans-serif;
@@ -228,8 +194,8 @@ summary {
     display: list-item;
 }
 
-canvas {
-    display: inline-block;
+
+
 }
 
 template {

@@ -29,6 +29,15 @@
     font-weight: normal;
 }
 
+/*
+ * Harry Potter
+================================================================================ */
+@font-face {
+font-family: 'Harry Potter Regular';
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/harry-potter-cufonfonts-webfont/HARRP___.woff") format('woff');
+}
 
 /*
  * montserrat
