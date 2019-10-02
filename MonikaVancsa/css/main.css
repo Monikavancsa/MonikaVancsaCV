@@ -1503,13 +1503,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .home-content {
-    display: table-cell;
     width: 100%;
     height: 100%;
-    vertical-align: middle;
     padding-bottom: 19.2rem;
     position: relative;
+    display:flex;
 }
+.home-content__main {
+    position: flex;
+    margin:15rem 0 0 15rem;
+
+}
+
 
 .home-content h3 {
     font-family: "montserrat-medium";
@@ -1541,17 +1546,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 5rem;
     line-height: 1.35;
     margin-top: 0;
-    letter-spacing:2rem;
+    letter-spacing:1rem;
 }
 .home-content h2{
   font-family: "librebaskerville-bold", serif;
    color: #FFFFFF;
 }
 
-.home-content__main {
-    padding-right: 300px;
-    position: relative;
-}
+
 
 .home-content__buttons {
     position: absolute;
@@ -1577,7 +1579,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #20B2AA;
 }
 
+#portret{
+  background-color:rgba(255, 255, 255, 0.2) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:2rem;
 
+  flex-grow: 1;
+  margin: 18rem;
+  position:relative;
+}
 /* -------------------------------------------------------------------
  * ## home social - (_site-layout.scss)
  * ------------------------------------------------------------------- */
