@@ -1600,6 +1600,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     bottom: 0;
     right: 40px;
+    flex:1;
 }
 
 .home-social::after {
@@ -2513,6 +2514,10 @@ position: absolute;
     }
     .contact__infos {
         padding-top: 3rem;
+
+    }
+    .form-field button{
+      align-items: center;
     }
 }
 
