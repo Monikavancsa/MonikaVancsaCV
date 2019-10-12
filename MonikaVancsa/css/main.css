@@ -1876,9 +1876,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 500px) {
 #portret{
-  flex:none;
-  margin: 0 auto;
-  display:block;
+  display:none;
 }
     .s-home {
         min-height: 654px;
