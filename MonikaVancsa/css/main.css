@@ -1866,15 +1866,19 @@ html.no-csstransitions .home-content__main {
     .home-social::after {
         height: 10.2rem;
     }
-#portet{
+#portret{
   flex:none;
+  margin:0 auto;
+  display:block;
 }
 
 }
 
 @media only screen and (max-width: 500px) {
-#portet{
+#portret{
   flex:none;
+  margin: 0 auto;
+  display:block;
 }
     .s-home {
         min-height: 654px;
@@ -1893,8 +1897,10 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 400px) {
-#portet{
+ #portet{
   flex:none;
+  margin :0 auto;
+  display:block;
 }
     .home-content {
         vertical-align: middle;
