@@ -1812,7 +1812,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 1000px) {
-    .home-content h1 {
+    .home-content h2 {
         font-size: 4.8rem;
     }
     .home-content__main {
@@ -1850,7 +1850,7 @@ html.no-csstransitions .home-content__main {
     .home-content {
         padding-bottom: 15rem;
     }
-    .home-content h1 {
+    .home-content h2 {
         font-size: 3rem;
     }
     .home-content__main {
@@ -1866,18 +1866,23 @@ html.no-csstransitions .home-content__main {
     .home-social::after {
         height: 10.2rem;
     }
-
+#portet{
+  flex:none;
+}
 
 }
 
 @media only screen and (max-width: 500px) {
+#portet{
+  flex:none;
+}
     .s-home {
         min-height: 654px;
     }
     .home-content h3 {
         font-size: 1.5rem;
     }
-    .home-content h1 {
+    .home-content h2 {
         font-size: 2rem;
     }
     .home-content__main {
@@ -1888,11 +1893,14 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 400px) {
+#portet{
+  flex:none;
+}
     .home-content {
         vertical-align: middle;
     }
-    .home-content h1 {
-        font-size: 3.5rem;
+    .home-content h2 {
+        font-size: 2rem;
     }
     .home-content__main {
         width: auto;
