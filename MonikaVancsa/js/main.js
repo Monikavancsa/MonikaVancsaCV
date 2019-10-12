@@ -21,6 +21,7 @@
      * -------------------------------------------------- */
     var ssPreloader = function() {
 
+
         $("html").addClass('ss-preload');
 
         $WIN.on('load', function() {
@@ -31,7 +32,7 @@
             // will first fade out the loading animation
             $("#loader").fadeOut("slow", function() {
                 // will fade out the whole DIV that covers the website.
-                $("#preloader").delay(300).fadeOut("slow");
+                $("#preloader").delay(200).fadeOut("slow");
             });
 
             // for hero content animations
@@ -424,8 +425,15 @@
         ssAlertBoxes();
         ssContactForm();
         ssBackToTop();
+        contactAnimation();
 
     })();
 
 
+/*_________________________________________________*/
+var contactAnimation =function(){
+  $("#phone").hover(function(){
+  $("#phone").fadeOut();
+});
+}
 })(jQuery);
