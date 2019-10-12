@@ -2371,7 +2371,7 @@ position: absolute;
   text-decoration: none;
   list-style-type: none;
   color:white;
-  font-family: montserrat;
+  font-family: montserrat-semibold;
   font-size: 20px;
 
 }
@@ -2608,10 +2608,11 @@ position: absolute;
     .contact__form {
         padding-right: 15px;
     }
-    .contact__infos {
-        padding-top: 3rem;
-
+    .contact-info li{
+      font-size: 1rem;
     }
+
+
     .form-field button{
       align-items: center;
 
@@ -2622,9 +2623,16 @@ position: absolute;
     .contact__form {
         padding-right: 10px;
     }
+    .contact-info li{
+      font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 400px) {
+  .contact-info li{
+    font-size:1rem;
+  }
+
     .contact__form {
         padding-right: 0;
     }
