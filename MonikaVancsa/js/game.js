@@ -37,7 +37,7 @@ let score = 0;
 
 
 // on key down
-
+document.addEventListener("touchStart", moveUp);
 document.addEventListener("keydown", moveUp);
 
 function moveUp() {
