@@ -425,15 +425,18 @@
         ssAlertBoxes();
         ssContactForm();
         ssBackToTop();
-        contactAnimation();
+
 
     })();
 
 
 /*_________________________________________________*/
-var contactAnimation =function(){
-  $("#phone").hover(function(){
-  $("#phone").fadeOut();
-});
-}
+
 })(jQuery);
+
+/*if ($(window).width() < 480 || $(window).height() < 480) {
+      let mobileContactInfo=document.getElementsByTagName("i");
+      mobileContactInfo.addEventListener("click", function(){
+        mobileContactInfo.innerHtml=("Monika")
+      });
+    };*/
