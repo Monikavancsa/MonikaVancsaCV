@@ -124,6 +124,35 @@
             }
         });
 
+          var contactButtonPhone = $(".im-phone");
+          var contactButtonMail = $(".im-mail");
+          var contactButtonLocation = $(".im-location");
+
+          contactButtonPhone.on("click", function(){
+            $("#phoneID").slideDown(1000);
+              $("#locationID").slideUp();
+              $("#mailID").slideUp();
+              $("#phoneID").addClass("mobileSpan")
+
+          })
+
+
+          contactButtonMail.on("click", function(){
+            $("#mailID").slideDown(1000);
+              $("#locationID").slideUp();
+              $("#phoneID").slideUp();
+              $("#mailID").addClass("mobileSpan")
+          })
+
+          contactButtonLocation.on("click", function(){
+              $("#locationID").addClass("mobileSpan")
+            $("#locationID").slideDown(1000);
+            $("#mailID").slideUp();
+            $("#phoneID").slideUp();
+
+          })
+
+
     };
 
 

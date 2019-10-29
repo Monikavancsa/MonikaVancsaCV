@@ -2365,7 +2365,7 @@ position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.9;
     filter: blur(3px);
     background-color:black;
 }
@@ -2622,6 +2622,15 @@ position: absolute;
 
 
 /* -------------------------------------------------------------------
+ * mobile
+ * contact
+ * ------------------------------------------------------------------- */
+.mobileSpan:hover {
+  font-size: 1rem;
+  letter-spacing: 2;
+
+}
+/* -------------------------------------------------------------------
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
@@ -2630,8 +2639,11 @@ position: absolute;
     .contact__form {
         padding-right: 15px;
     }
-    .contact-info li{
-      font-size: 1rem;
+    .contact-info ul li:hover{
+      font-size: 1.2rem;
+    }
+    .contact-info span{
+      margin:0 auto;
     }
 
 
@@ -2645,6 +2657,13 @@ position: absolute;
     .contact__form {
         padding-right: 10px;
     }
+    .contact-info{
+      margin:0;
+    }
+    .contact-info span{
+      margin:0 auto;
+    }
+
     .contact-info li{
       font-size: 1rem;
     }
@@ -2656,9 +2675,14 @@ position: absolute;
   .contact-info li{
     font-size:1rem;
   }
-  .contac-info li span {
+  .contact-info{
+    margin:0;
+  }
+  .contac-info  ull li span {
     display:none;
   }
+
+
   .contac-info li:hover {
     display:block;
   }
